@@ -1,0 +1,39 @@
+2026-06-09 15:22:28,219 [registry] INFO Starting Registry on port 10000
+INFO:     Started server process [33235]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:10000 (Press CTRL+C to quit)
+2026-06-09 15:22:31,006 [registry] INFO Registered agent 'compliance-agent' at http://localhost:10103 (tasks=['compliance_question'])
+INFO:     127.0.0.1:41608 - "POST /register HTTP/1.1" 200 OK
+2026-06-09 15:22:31,013 [registry] INFO Registered agent 'tax-agent' at http://localhost:10102 (tasks=['tax_question'])
+INFO:     127.0.0.1:41610 - "POST /register HTTP/1.1" 200 OK
+2026-06-09 15:22:34,002 [registry] INFO Registered agent 'law-agent' at http://localhost:10101 (tasks=['legal_question'])
+INFO:     127.0.0.1:41614 - "POST /register HTTP/1.1" 200 OK
+2026-06-09 15:22:36,946 [registry] INFO Registered agent 'customer-agent' at http://localhost:10100 (tasks=[])
+INFO:     127.0.0.1:41778 - "POST /register HTTP/1.1" 200 OK
+2026-06-09 15:22:55,029 [registry] INFO Discovered agent 'law-agent' for task 'legal_question'
+INFO:     127.0.0.1:44744 - "GET /discover/legal_question HTTP/1.1" 200 OK
+2026-06-09 15:22:55,170 [registry] INFO Discovered agent 'tax-agent' for task 'tax_question'
+INFO:     127.0.0.1:44750 - "GET /discover/tax_question HTTP/1.1" 200 OK
+2026-06-09 15:22:55,171 [registry] INFO Discovered agent 'compliance-agent' for task 'compliance_question'
+INFO:     127.0.0.1:44760 - "GET /discover/compliance_question HTTP/1.1" 200 OK
+2026-06-09 15:23:32,832 [registry] INFO Discovered agent 'law-agent' for task 'legal_question'
+INFO:     127.0.0.1:45732 - "GET /discover/legal_question HTTP/1.1" 200 OK
+2026-06-09 15:23:32,964 [registry] INFO Discovered agent 'tax-agent' for task 'tax_question'
+INFO:     127.0.0.1:45736 - "GET /discover/tax_question HTTP/1.1" 200 OK
+2026-06-09 15:23:32,965 [registry] INFO Discovered agent 'compliance-agent' for task 'compliance_question'
+INFO:     127.0.0.1:45744 - "GET /discover/compliance_question HTTP/1.1" 200 OK
+2026-06-09 15:24:11,092 [registry] INFO Discovered agent 'law-agent' for task 'legal_question'
+INFO:     127.0.0.1:46730 - "GET /discover/legal_question HTTP/1.1" 200 OK
+2026-06-09 15:24:11,217 [registry] INFO Discovered agent 'tax-agent' for task 'tax_question'
+INFO:     127.0.0.1:46746 - "GET /discover/tax_question HTTP/1.1" 200 OK
+2026-06-09 15:24:11,218 [registry] INFO Discovered agent 'compliance-agent' for task 'compliance_question'
+INFO:     127.0.0.1:46760 - "GET /discover/compliance_question HTTP/1.1" 200 OK
+2026-06-09 15:25:16,448 [registry] INFO Registered agent 'tax-agent' at http://localhost:10102 (tasks=['tax_question'])
+INFO:     127.0.0.1:51074 - "POST /register HTTP/1.1" 200 OK
+2026-06-09 15:25:44,909 [registry] INFO Discovered agent 'law-agent' for task 'legal_question'
+INFO:     127.0.0.1:59398 - "GET /discover/legal_question HTTP/1.1" 200 OK
+2026-06-09 15:25:45,044 [registry] INFO Discovered agent 'tax-agent' for task 'tax_question'
+INFO:     127.0.0.1:59404 - "GET /discover/tax_question HTTP/1.1" 200 OK
+2026-06-09 15:25:45,046 [registry] INFO Discovered agent 'compliance-agent' for task 'compliance_question'
+INFO:     127.0.0.1:59412 - "GET /discover/compliance_question HTTP/1.1" 200 OK

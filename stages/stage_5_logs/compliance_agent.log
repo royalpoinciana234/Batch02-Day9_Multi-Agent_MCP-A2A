@@ -1,0 +1,28 @@
+2026-06-09 15:22:31,007 [compliance_agent] INFO HTTP Request: POST http://localhost:10000/register "HTTP/1.1 200 OK"
+2026-06-09 15:22:31,008 [compliance_agent] INFO Registered with registry (attempt 1)
+2026-06-09 15:22:31,011 [compliance_agent] INFO Compliance Agent listening on port 10103
+INFO:     Started server process [33238]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:10103 (Press CTRL+C to quit)
+2026-06-09 15:22:55,280 [compliance_agent] WARNING Deprecated agent card endpoint '/.well-known/agent.json' accessed. Please use '/.well-known/agent-card.json' instead. This endpoint will be removed in a future version.
+INFO:     127.0.0.1:37212 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+2026-06-09 15:22:55,291 [compliance_agent] INFO ComplianceAgent executing | task=a805fca3-2088-4292-a7ca-f1e7cc4423a1 context=a9841fb4-cd4e-4e0b-a06a-6bd28206eba4 trace=cf4449ea-a09f-471d-90e4-b9b384218758 depth=2
+2026-06-09 15:22:55,291 [compliance_agent] INFO Instantiating MockChatOpenAI to bypass OpenRouter limits
+2026-06-09 15:22:55,301 [compliance_agent] INFO Task not found or task_id not set. Creating new task for event (task_id: a805fca3-2088-4292-a7ca-f1e7cc4423a1, context_id: a9841fb4-cd4e-4e0b-a06a-6bd28206eba4).
+INFO:     127.0.0.1:37212 - "POST / HTTP/1.1" 200 OK
+2026-06-09 15:23:33,048 [compliance_agent] WARNING Deprecated agent card endpoint '/.well-known/agent.json' accessed. Please use '/.well-known/agent-card.json' instead. This endpoint will be removed in a future version.
+INFO:     127.0.0.1:42768 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+2026-06-09 15:23:33,052 [compliance_agent] INFO ComplianceAgent executing | task=131458c5-0319-4f33-957e-4d77f84f79f4 context=1118df82-a8fb-49e1-b71e-22102cdfa834 trace=62bfb6de-bbaa-4824-85d5-5b604ac04852 depth=2
+2026-06-09 15:23:33,055 [compliance_agent] INFO Task not found or task_id not set. Creating new task for event (task_id: 131458c5-0319-4f33-957e-4d77f84f79f4, context_id: 1118df82-a8fb-49e1-b71e-22102cdfa834).
+INFO:     127.0.0.1:42768 - "POST / HTTP/1.1" 200 OK
+2026-06-09 15:24:11,295 [compliance_agent] WARNING Deprecated agent card endpoint '/.well-known/agent.json' accessed. Please use '/.well-known/agent-card.json' instead. This endpoint will be removed in a future version.
+INFO:     127.0.0.1:57788 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+2026-06-09 15:24:11,301 [compliance_agent] INFO ComplianceAgent executing | task=9141f965-9238-4765-b5e4-1a7f0cd08caf context=6b814686-57c1-4263-8dcd-20d0898d16a8 trace=2442acab-a265-4580-b041-67cab056acea depth=2
+2026-06-09 15:24:11,302 [compliance_agent] INFO Task not found or task_id not set. Creating new task for event (task_id: 9141f965-9238-4765-b5e4-1a7f0cd08caf, context_id: 6b814686-57c1-4263-8dcd-20d0898d16a8).
+INFO:     127.0.0.1:57788 - "POST / HTTP/1.1" 200 OK
+2026-06-09 15:25:45,134 [compliance_agent] WARNING Deprecated agent card endpoint '/.well-known/agent.json' accessed. Please use '/.well-known/agent-card.json' instead. This endpoint will be removed in a future version.
+INFO:     127.0.0.1:55428 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+2026-06-09 15:25:45,142 [compliance_agent] INFO ComplianceAgent executing | task=b3b8f7cd-5e65-4e7a-b515-34e7170de39a context=c32bfafc-1bec-49d6-8f4d-f2d06c78a125 trace=88e5075e-3515-4217-a54c-a6070bc39a8d depth=2
+2026-06-09 15:25:45,144 [compliance_agent] INFO Task not found or task_id not set. Creating new task for event (task_id: b3b8f7cd-5e65-4e7a-b515-34e7170de39a, context_id: c32bfafc-1bec-49d6-8f4d-f2d06c78a125).
+INFO:     127.0.0.1:55428 - "POST / HTTP/1.1" 200 OK

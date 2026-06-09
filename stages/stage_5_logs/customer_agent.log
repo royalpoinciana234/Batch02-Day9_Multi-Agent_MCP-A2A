@@ -1,0 +1,47 @@
+2026-06-09 15:22:36,947 [customer_agent] INFO HTTP Request: POST http://localhost:10000/register "HTTP/1.1 200 OK"
+2026-06-09 15:22:36,948 [customer_agent] INFO Registered with registry (attempt 1)
+2026-06-09 15:22:36,950 [customer_agent] INFO Customer Agent listening on port 10100
+INFO:     Started server process [33246]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:10100 (Press CTRL+C to quit)
+2026-06-09 15:22:54,598 [customer_agent] WARNING Deprecated agent card endpoint '/.well-known/agent.json' accessed. Please use '/.well-known/agent-card.json' instead. This endpoint will be removed in a future version.
+INFO:     127.0.0.1:40524 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+2026-06-09 15:22:54,938 [customer_agent] INFO CustomerAgent executing | task=80b61c9a-1d12-4d1c-93ac-95b3afd19fcc context=a9841fb4-cd4e-4e0b-a06a-6bd28206eba4 trace=cf4449ea-a09f-471d-90e4-b9b384218758 depth=0
+2026-06-09 15:22:54,942 [customer_agent] INFO Instantiating MockChatOpenAI to bypass OpenRouter limits
+2026-06-09 15:22:54,950 [customer_agent] INFO Task not found or task_id not set. Creating new task for event (task_id: 80b61c9a-1d12-4d1c-93ac-95b3afd19fcc, context_id: a9841fb4-cd4e-4e0b-a06a-6bd28206eba4).
+2026-06-09 15:22:54,977 [customer_agent] INFO Customer delegate_to_legal_agent | trace=cf4449ea-a09f-471d-90e4-b9b384218758 context=a9841fb4-cd4e-4e0b-a06a-6bd28206eba4 depth=0
+2026-06-09 15:22:55,030 [customer_agent] INFO HTTP Request: GET http://localhost:10000/discover/legal_question "HTTP/1.1 200 OK"
+2026-06-09 15:22:55,072 [customer_agent] INFO HTTP Request: GET http://localhost:10101/.well-known/agent.json "HTTP/1.1 200 OK"
+2026-06-09 15:22:55,313 [customer_agent] INFO HTTP Request: POST http://localhost:10101 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:40524 - "POST / HTTP/1.1" 200 OK
+2026-06-09 15:23:32,408 [customer_agent] WARNING Deprecated agent card endpoint '/.well-known/agent.json' accessed. Please use '/.well-known/agent-card.json' instead. This endpoint will be removed in a future version.
+INFO:     127.0.0.1:52294 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+2026-06-09 15:23:32,772 [customer_agent] INFO CustomerAgent executing | task=7d9d4a16-ad04-4bf7-88ba-6acf7f17e2e8 context=1118df82-a8fb-49e1-b71e-22102cdfa834 trace=62bfb6de-bbaa-4824-85d5-5b604ac04852 depth=0
+2026-06-09 15:23:32,775 [customer_agent] INFO Instantiating MockChatOpenAI to bypass OpenRouter limits
+2026-06-09 15:23:32,785 [customer_agent] INFO Task not found or task_id not set. Creating new task for event (task_id: 7d9d4a16-ad04-4bf7-88ba-6acf7f17e2e8, context_id: 1118df82-a8fb-49e1-b71e-22102cdfa834).
+2026-06-09 15:23:32,789 [customer_agent] INFO Customer delegate_to_legal_agent | trace=62bfb6de-bbaa-4824-85d5-5b604ac04852 context=1118df82-a8fb-49e1-b71e-22102cdfa834 depth=0
+2026-06-09 15:23:32,833 [customer_agent] INFO HTTP Request: GET http://localhost:10000/discover/legal_question "HTTP/1.1 200 OK"
+2026-06-09 15:23:32,875 [customer_agent] INFO HTTP Request: GET http://localhost:10101/.well-known/agent.json "HTTP/1.1 200 OK"
+2026-06-09 15:23:33,065 [customer_agent] INFO HTTP Request: POST http://localhost:10101 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:52294 - "POST / HTTP/1.1" 200 OK
+2026-06-09 15:24:10,630 [customer_agent] WARNING Deprecated agent card endpoint '/.well-known/agent.json' accessed. Please use '/.well-known/agent-card.json' instead. This endpoint will be removed in a future version.
+INFO:     127.0.0.1:47460 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+2026-06-09 15:24:11,029 [customer_agent] INFO CustomerAgent executing | task=9541ee9e-27b9-45a3-b60c-283d8c3ab12d context=6b814686-57c1-4263-8dcd-20d0898d16a8 trace=2442acab-a265-4580-b041-67cab056acea depth=0
+2026-06-09 15:24:11,034 [customer_agent] INFO Instantiating MockChatOpenAI to bypass OpenRouter limits
+2026-06-09 15:24:11,042 [customer_agent] INFO Task not found or task_id not set. Creating new task for event (task_id: 9541ee9e-27b9-45a3-b60c-283d8c3ab12d, context_id: 6b814686-57c1-4263-8dcd-20d0898d16a8).
+2026-06-09 15:24:11,046 [customer_agent] INFO Customer delegate_to_legal_agent | trace=2442acab-a265-4580-b041-67cab056acea context=6b814686-57c1-4263-8dcd-20d0898d16a8 depth=0
+2026-06-09 15:24:11,093 [customer_agent] INFO HTTP Request: GET http://localhost:10000/discover/legal_question "HTTP/1.1 200 OK"
+2026-06-09 15:24:11,131 [customer_agent] INFO HTTP Request: GET http://localhost:10101/.well-known/agent.json "HTTP/1.1 200 OK"
+2026-06-09 15:24:11,309 [customer_agent] INFO HTTP Request: POST http://localhost:10101 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:47460 - "POST / HTTP/1.1" 200 OK
+2026-06-09 15:25:44,518 [customer_agent] WARNING Deprecated agent card endpoint '/.well-known/agent.json' accessed. Please use '/.well-known/agent-card.json' instead. This endpoint will be removed in a future version.
+INFO:     127.0.0.1:43422 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+2026-06-09 15:25:44,832 [customer_agent] INFO CustomerAgent executing | task=df367833-66a1-43cc-9673-49822bd08395 context=c32bfafc-1bec-49d6-8f4d-f2d06c78a125 trace=88e5075e-3515-4217-a54c-a6070bc39a8d depth=0
+2026-06-09 15:25:44,837 [customer_agent] INFO Instantiating MockChatOpenAI to bypass OpenRouter limits
+2026-06-09 15:25:44,852 [customer_agent] INFO Task not found or task_id not set. Creating new task for event (task_id: df367833-66a1-43cc-9673-49822bd08395, context_id: c32bfafc-1bec-49d6-8f4d-f2d06c78a125).
+2026-06-09 15:25:44,858 [customer_agent] INFO Customer delegate_to_legal_agent | trace=88e5075e-3515-4217-a54c-a6070bc39a8d context=c32bfafc-1bec-49d6-8f4d-f2d06c78a125 depth=0
+2026-06-09 15:25:44,910 [customer_agent] INFO HTTP Request: GET http://localhost:10000/discover/legal_question "HTTP/1.1 200 OK"
+2026-06-09 15:25:44,952 [customer_agent] INFO HTTP Request: GET http://localhost:10101/.well-known/agent.json "HTTP/1.1 200 OK"
+2026-06-09 15:25:45,165 [customer_agent] INFO HTTP Request: POST http://localhost:10101 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:43422 - "POST / HTTP/1.1" 200 OK

@@ -1,0 +1,137 @@
+2026-06-09 15:22:34,004 [law_agent] INFO HTTP Request: POST http://localhost:10000/register "HTTP/1.1 200 OK"
+2026-06-09 15:22:34,006 [law_agent] INFO Registered with registry (attempt 1)
+2026-06-09 15:22:34,009 [law_agent] INFO Law Agent listening on port 10101
+INFO:     Started server process [33242]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:10101 (Press CTRL+C to quit)
+2026-06-09 15:22:55,071 [law_agent] WARNING Deprecated agent card endpoint '/.well-known/agent.json' accessed. Please use '/.well-known/agent-card.json' instead. This endpoint will be removed in a future version.
+INFO:     127.0.0.1:39500 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+2026-06-09 15:22:55,075 [law_agent] INFO LawAgent executing | task=f99e4e2a-4d83-488f-abe7-9ed1346357a8 context=a9841fb4-cd4e-4e0b-a06a-6bd28206eba4 trace=cf4449ea-a09f-471d-90e4-b9b384218758 depth=1
+2026-06-09 15:22:55,079 [law_agent] INFO Task not found or task_id not set. Creating new task for event (task_id: f99e4e2a-4d83-488f-abe7-9ed1346357a8, context_id: a9841fb4-cd4e-4e0b-a06a-6bd28206eba4).
+2026-06-09 15:22:55,079 [law_agent] INFO Instantiating MockChatOpenAI to bypass OpenRouter limits
+2026-06-09 15:22:55,082 [law_agent] INFO Instantiating MockChatOpenAI to bypass OpenRouter limits
+2026-06-09 15:22:55,083 [law_agent] INFO Routing decision: needs_tax=True needs_compliance=True
+2026-06-09 15:22:55,171 [law_agent] INFO HTTP Request: GET http://localhost:10000/discover/tax_question "HTTP/1.1 200 OK"
+2026-06-09 15:22:55,228 [law_agent] INFO HTTP Request: GET http://localhost:10000/discover/compliance_question "HTTP/1.1 200 OK"
+2026-06-09 15:22:55,282 [law_agent] INFO HTTP Request: GET http://localhost:10103/.well-known/agent.json "HTTP/1.1 200 OK"
+2026-06-09 15:22:55,283 [law_agent] INFO HTTP Request: GET http://localhost:10102/.well-known/agent.json "HTTP/1.1 200 OK"
+2026-06-09 15:22:55,304 [law_agent] INFO HTTP Request: POST http://localhost:10102 "HTTP/1.1 200 OK"
+2026-06-09 15:22:55,306 [law_agent] INFO Tax Agent returned 564 chars
+2026-06-09 15:22:55,308 [law_agent] INFO HTTP Request: POST http://localhost:10103 "HTTP/1.1 200 OK"
+2026-06-09 15:22:55,309 [law_agent] INFO Compliance Agent returned 448 chars
+2026-06-09 15:22:55,309 [law_agent] INFO Instantiating MockChatOpenAI to bypass OpenRouter limits
+INFO:     127.0.0.1:39500 - "POST / HTTP/1.1" 200 OK
+2026-06-09 15:23:32,873 [law_agent] WARNING Deprecated agent card endpoint '/.well-known/agent.json' accessed. Please use '/.well-known/agent-card.json' instead. This endpoint will be removed in a future version.
+INFO:     127.0.0.1:52642 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+2026-06-09 15:23:32,877 [law_agent] INFO LawAgent executing | task=014d40af-7c69-4894-bf3a-7838d4f1a2b4 context=1118df82-a8fb-49e1-b71e-22102cdfa834 trace=62bfb6de-bbaa-4824-85d5-5b604ac04852 depth=1
+2026-06-09 15:23:32,879 [law_agent] INFO Task not found or task_id not set. Creating new task for event (task_id: 014d40af-7c69-4894-bf3a-7838d4f1a2b4, context_id: 1118df82-a8fb-49e1-b71e-22102cdfa834).
+2026-06-09 15:23:32,880 [law_agent] INFO Instantiating MockChatOpenAI to bypass OpenRouter limits
+2026-06-09 15:23:32,881 [law_agent] INFO Instantiating MockChatOpenAI to bypass OpenRouter limits
+2026-06-09 15:23:32,882 [law_agent] INFO Routing decision: needs_tax=True needs_compliance=True
+2026-06-09 15:23:32,965 [law_agent] INFO HTTP Request: GET http://localhost:10000/discover/tax_question "HTTP/1.1 200 OK"
+2026-06-09 15:23:33,005 [law_agent] INFO HTTP Request: GET http://localhost:10000/discover/compliance_question "HTTP/1.1 200 OK"
+2026-06-09 15:23:33,048 [law_agent] INFO HTTP Request: GET http://localhost:10102/.well-known/agent.json "HTTP/1.1 200 OK"
+2026-06-09 15:23:33,049 [law_agent] INFO HTTP Request: GET http://localhost:10103/.well-known/agent.json "HTTP/1.1 200 OK"
+2026-06-09 15:23:33,059 [law_agent] INFO HTTP Request: POST http://localhost:10102 "HTTP/1.1 200 OK"
+2026-06-09 15:23:33,059 [law_agent] INFO HTTP Request: POST http://localhost:10103 "HTTP/1.1 200 OK"
+2026-06-09 15:23:33,060 [law_agent] INFO Tax Agent returned 564 chars
+2026-06-09 15:23:33,061 [law_agent] INFO Compliance Agent returned 448 chars
+2026-06-09 15:23:33,062 [law_agent] INFO Instantiating MockChatOpenAI to bypass OpenRouter limits
+INFO:     127.0.0.1:52642 - "POST / HTTP/1.1" 200 OK
+2026-06-09 15:24:11,129 [law_agent] WARNING Deprecated agent card endpoint '/.well-known/agent.json' accessed. Please use '/.well-known/agent-card.json' instead. This endpoint will be removed in a future version.
+INFO:     127.0.0.1:50966 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+2026-06-09 15:24:11,134 [law_agent] INFO LawAgent executing | task=003bdd85-7808-408d-9bc9-c9ad1d811657 context=6b814686-57c1-4263-8dcd-20d0898d16a8 trace=2442acab-a265-4580-b041-67cab056acea depth=1
+2026-06-09 15:24:11,135 [law_agent] INFO Task not found or task_id not set. Creating new task for event (task_id: 003bdd85-7808-408d-9bc9-c9ad1d811657, context_id: 6b814686-57c1-4263-8dcd-20d0898d16a8).
+2026-06-09 15:24:11,136 [law_agent] INFO Instantiating MockChatOpenAI to bypass OpenRouter limits
+2026-06-09 15:24:11,137 [law_agent] INFO Instantiating MockChatOpenAI to bypass OpenRouter limits
+2026-06-09 15:24:11,138 [law_agent] INFO Routing decision: needs_tax=True needs_compliance=True
+2026-06-09 15:24:11,218 [law_agent] INFO HTTP Request: GET http://localhost:10000/discover/tax_question "HTTP/1.1 200 OK"
+2026-06-09 15:24:11,255 [law_agent] INFO HTTP Request: GET http://localhost:10000/discover/compliance_question "HTTP/1.1 200 OK"
+2026-06-09 15:24:11,291 [law_agent] ERROR call_tax failed: All connection attempts failed
+Traceback (most recent call last):
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/.venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/.venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/.venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/.venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/.venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/.venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/.venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/.venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/law_agent/graph.py", line 142, in call_tax
+    result = await delegate(
+             ^^^^^^^^^^^^^^^
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/common/a2a_client.py", line 50, in delegate
+    card_resp = await http_client.get(card_url)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1768, in get
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/henry/Downloads/AI in action/day9/Batch02-Day9_Multi-Agent_MCP-A2A/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+2026-06-09 15:24:11,297 [law_agent] INFO HTTP Request: GET http://localhost:10103/.well-known/agent.json "HTTP/1.1 200 OK"
+2026-06-09 15:24:11,305 [law_agent] INFO HTTP Request: POST http://localhost:10103 "HTTP/1.1 200 OK"
+2026-06-09 15:24:11,306 [law_agent] INFO Compliance Agent returned 448 chars
+2026-06-09 15:24:11,307 [law_agent] INFO Instantiating MockChatOpenAI to bypass OpenRouter limits
+INFO:     127.0.0.1:50966 - "POST / HTTP/1.1" 200 OK
+2026-06-09 15:25:44,951 [law_agent] WARNING Deprecated agent card endpoint '/.well-known/agent.json' accessed. Please use '/.well-known/agent-card.json' instead. This endpoint will be removed in a future version.
+INFO:     127.0.0.1:46670 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+2026-06-09 15:25:44,955 [law_agent] INFO LawAgent executing | task=5647a206-6941-4b10-a23a-5b64ff1616ae context=c32bfafc-1bec-49d6-8f4d-f2d06c78a125 trace=88e5075e-3515-4217-a54c-a6070bc39a8d depth=1
+2026-06-09 15:25:44,957 [law_agent] INFO Task not found or task_id not set. Creating new task for event (task_id: 5647a206-6941-4b10-a23a-5b64ff1616ae, context_id: c32bfafc-1bec-49d6-8f4d-f2d06c78a125).
+2026-06-09 15:25:44,957 [law_agent] INFO Instantiating MockChatOpenAI to bypass OpenRouter limits
+2026-06-09 15:25:44,959 [law_agent] INFO Instantiating MockChatOpenAI to bypass OpenRouter limits
+2026-06-09 15:25:44,960 [law_agent] INFO Routing decision: needs_tax=True needs_compliance=True
+2026-06-09 15:25:45,046 [law_agent] INFO HTTP Request: GET http://localhost:10000/discover/tax_question "HTTP/1.1 200 OK"
+2026-06-09 15:25:45,048 [law_agent] INFO HTTP Request: GET http://localhost:10000/discover/compliance_question "HTTP/1.1 200 OK"
+2026-06-09 15:25:45,136 [law_agent] INFO HTTP Request: GET http://localhost:10103/.well-known/agent.json "HTTP/1.1 200 OK"
+2026-06-09 15:25:45,140 [law_agent] INFO HTTP Request: GET http://localhost:10102/.well-known/agent.json "HTTP/1.1 200 OK"
+2026-06-09 15:25:45,151 [law_agent] INFO HTTP Request: POST http://localhost:10103 "HTTP/1.1 200 OK"
+2026-06-09 15:25:45,152 [law_agent] INFO Compliance Agent returned 448 chars
+2026-06-09 15:25:45,160 [law_agent] INFO HTTP Request: POST http://localhost:10102 "HTTP/1.1 200 OK"
+2026-06-09 15:25:45,161 [law_agent] INFO Tax Agent returned 162 chars
+2026-06-09 15:25:45,162 [law_agent] INFO Instantiating MockChatOpenAI to bypass OpenRouter limits
+INFO:     127.0.0.1:46670 - "POST / HTTP/1.1" 200 OK

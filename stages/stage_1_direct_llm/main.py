@@ -19,7 +19,8 @@ from langchain_core.messages import HumanMessage, SystemMessage
 
 from common.llm import get_llm
 
-QUESTION = "What are the legal consequences if a company breaches a non-disclosure agreement?"
+# QUESTION = "What are the legal consequences if a company breaches a non-disclosure agreement?"
+QUESTION = "Nếu một công ty vi phạm thỏa thuận không tiết lộ thông tin, hậu quả pháp lý có thể bao gồm việc bị kiện ra tòa, phải bồi thường thiệt hại cho bên bị vi phạm, và có thể phải chịu các hình phạt khác tùy theo mức độ nghiêm trọng của vi phạm và quy định trong hợp đồng."  # Vietnamese question for testing multilingual capabilities
 
 
 async def main():
@@ -35,7 +36,7 @@ async def main():
     print(f"Question: {QUESTION}")
     print("-" * 70)
 
-    llm = get_llm()
+    llm = get_llm(temperature=0.3)
 
     messages = [
         SystemMessage(

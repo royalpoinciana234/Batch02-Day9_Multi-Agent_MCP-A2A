@@ -1,0 +1,109 @@
+{
+  "raw_query": "Hình phạt cho hành vi tàng trữ khay và kẹo là gì?",
+  "refined_query": "Phát hiện từ lóng ma túy:\n - Từ lóng 'khay' nghĩa là: Ketamine (chất ma túy nhóm hướng thần)\n - Từ lóng 'kẹo' nghĩa là: Thuốc lắc / MDMA (chất ma túy cực độc tổng hợp)",
+  "retrieved_chunks": [
+    {
+      "content": "b) Vận chuyển, bảo quản, tồn trữ, mua bán, phân phối, sử dụng, xử lý, trao\nđổi chất ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất,\nnguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng thần, tiền chất\ndùng làm thuốc và thuốc thú y có chứa chất ma túy, tiền chất;\n\nc) Nhập khẩu, xuất khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập, quá cảnh\nchất  ma  túy,  tiền  chất,  thuốc  gây  nghiện,  thuốc  hướng  thần,  thuốc  tiền  chất,\n\n\f7",
+      "score": 0.33720353,
+      "metadata": {
+        "source": "luat_phong_chong_ma_tuy_2021.md",
+        "type": "legal",
+        "chunk_index": 32
+      },
+      "source": "hybrid"
+    },
+    {
+      "content": "3. Chiếm đoạt chất ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần,\nthuốc tiền chất, nguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng\nthần, tiền chất dùng làm thuốc, thuốc thú y có chứa chất ma túy, tiền chất.\n\n\f4\n\n4. Giao nhận, quản lý, kiểm soát, lưu giữ, cấp phát, bảo quản chất ma túy,\ntiền chất trái quy định của pháp luật; cho phép người sử dụng chất ma túy, thuốc\ngây nghiện hoặc thuốc hướng thần trái quy định của pháp luật.",
+      "score": 0.30404165,
+      "metadata": {
+        "source": "luat_phong_chong_ma_tuy_2021.md",
+        "type": "legal",
+        "chunk_index": 15
+      },
+      "source": "hybrid"
+    },
+    {
+      "content": "168\n\nđ) Vi phạm quy định về quản lý, kiểm soát, lưu giữ chất ma túy, tiền chất,\nthuốc gây nghiện hoặc thuốc hướng thần tại khu vực cửa khẩu, khu vực biên giới,\ntrên biển;\n\ne) Vi phạm quy định về cấp phát, cho phép sử dụng chất ma túy, thuốc gây\n\nnghiện hoặc thuốc hướng thần.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 05 năm\n\nđến 10 năm:\n\na) Có tổ chức;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Tái phạm nguy hiểm.",
+      "score": 0.29098088,
+      "metadata": {
+        "source": "bo_luat_hinh_su_2015_sua_doi_2017-151-168.md",
+        "type": "legal"
+      },
+      "source": "hybrid"
+    },
+    {
+      "content": "thuốc hướng thần và bị lệ thuộc vào các chất này.\n\n13. Cai nghiện ma túy là quá trình thực hiện các hoạt động hỗ trợ về y tế,\ntâm lý, xã hội, giúp người nghiện ma túy dừng sử dụng chất ma túy, thuốc gây\nnghiện, thuốc hướng thần, phục hồi thể chất, tinh thần, nâng cao nhận thức, thay\nđổi hành vi để chấm dứt việc sử dụng trái phép các chất này.",
+      "score": 0.24653332,
+      "metadata": {
+        "source": "luat_phong_chong_ma_tuy_2021.md",
+        "type": "legal",
+        "chunk_index": 7
+      },
+      "source": "hybrid"
+    },
+    {
+      "content": "Chất ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất,\nnguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng thần, tiền chất\ndùng làm thuốc, thuốc thú y có chứa chất ma túy, tiền chất bị thu giữ trong các vụ\nán hình sự, vụ việc vi phạm hành chính được xử lý theo quy định của pháp luật\nvề tố tụng hình sự, pháp luật về xử lý vi phạm hành chính.\n\nChương IV\n\nQUẢN LÝ NGƯỜI SỬ DỤNG TRÁI PHÉP CHẤT MA TÚY\n\nĐiều 22. Xét nghiệm chất ma túy trong cơ thể",
+      "score": 0.21733753,
+      "metadata": {
+        "source": "luat_phong_chong_ma_tuy_2021.md",
+        "type": "legal",
+        "chunk_index": 47
+      },
+      "source": "hybrid"
+    }
+  ],
+  "reordered_context": "Kết quả sắp xếp và định dạng lại các chunks theo cấu trúc tối ưu (giảm thiểu lost-in-the-middle):\n\n```markdown\n[Document 1 | Source: luat_phong_chong_ma_tuy_2021.md | Type: legal]\nb) Vận chuyển, bảo quản, tồn trữ, mua bán, phân phối, sử dụng, xử lý, trao\nđổi chất ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất,\nnguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng thần, tiền chất\ndùng làm thuốc và thuốc thú y có chứa chất ma túy, tiền chất;\n\nc) Nhập khẩu, xuất khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập, quá cảnh\nchất  ma  túy,  tiền  chất,  thuốc  gây  nghiện,  thuốc  hướng  thần,  thuốc  tiền  chất,\n\n\f7\n\n---\n[Document 2 | Source: bo_luat_hinh_su_2015_sua_doi_2017-151-168.md | Type: legal]\n168\n\nđ) Vi phạm quy định về quản lý, kiểm soát, lưu giữ chất ma túy, tiền chất,\nthuốc gây nghiện hoặc thuốc hướng thần tại khu vực cửa khẩu, khu vực biên giới,\ntrên biển;\n\ne) Vi phạm quy định về cấp phát, cho phép sử dụng chất ma túy, thuốc gây\n\nnghiện hoặc thuốc hướng thần.\n\n2. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 05 năm\n\nđến 10 năm:\n\na) Có tổ chức;\n\nb) Phạm tội 02 lần trở lên;\n\nc) Tái phạm nguy hiểm.\n\n---\n[Document 3 | Source: luat_phong_chong_ma_tuy_2021.md | Type: legal]\nChất ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất,\nnguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng thần, tiền chất\ndùng làm thuốc, thuốc thú y có chứa chất ma túy, tiền chất bị thu giữ trong các vụ\nán hình sự, vụ việc vi phạm hành chính được xử lý theo quy định của pháp luật\nvề tố tụng hình sự, pháp luật về xử lý vi phạm hành chính.\n\nChương IV\n\nQUẢN LÝ NGƯỜI SỬ DỤNG TRÁI PHÉP CHẤT MA TÚY\n\nĐiều 22. Xét nghiệm chất ma túy trong cơ thể\n\n---\n[Document 4 | Source: luat_phong_chong_ma_tuy_2021.md | Type: legal]\nthuốc hướng thần và bị lệ thuộc vào các chất này.\n\n13. Cai nghiện ma túy là quá trình thực hiện các hoạt động hỗ trợ về y tế,\ntâm lý, xã hội, giúp người nghiện ma túy dừng sử dụng chất ma túy, thuốc gây\nnghiện, thuốc hướng thần, phục hồi thể chất, tinh thần, nâng cao nhận thức, thay\nđổi hành vi để chấm dứt việc sử dụng trái phép các chất này.\n\n---\n[Document 5 | Source: luat_phong_chong_ma_tuy_2021.md | Type: legal]\n3. Chiếm đoạt chất ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần,\nthuốc tiền chất, nguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng\nthần, tiền chất dùng làm thuốc, thuốc thú y có chứa chất ma túy, tiền chất.\n\n\f4\n\n4. Giao nhận, quản lý, kiểm soát, lưu giữ, cấp phát, bảo quản chất ma túy,\ntiền chất trái quy định của pháp luật; cho phép người sử dụng chất ma túy, thuốc\ngây nghiện hoặc thuốc hướng thần trái quy định của pháp luật.\n```",
+  "final_answer": "Dựa trên các quy định pháp luật hiện hành tại Việt Nam (Bộ luật Hình sự và Luật Phòng, chống ma túy), hành vi **tàng trữ trái phép \"khay\" (Ketamine - chất hướng thần) và \"kẹo\" (MDMA/Thuốc lắc - chất ma túy tổng hợp cực độc)** mà không nhằm mục đích mua bán, vận chuyển, sản xuất trái phép chất ma túy sẽ bị xử phạt hành chính hoặc truy cứu trách nhiệm hình sự.\n\nDưới đây là chi tiết các mức hình phạt cụ thể:\n\n### 1. Quy định chung về hành vi tàng trữ chất ma túy\n* Theo **Luật Phòng, chống ma túy 2021**, hành vi tàng trữ (tồn trữ) trái phép chất ma túy, thuốc hướng thần là hành vi bị nghiêm cấm **`[Source: luat_phong_chong_ma_tuy_2021.md]`**.\n* Toàn bộ chất ma túy, thuốc hướng thần bị thu giữ trong các vụ án hình sự hoặc vụ việc vi phạm hành chính sẽ được xử lý nghiêm theo quy định của pháp luật tố tụng hình sự và xử lý vi phạm hành chính **`[Source: luat_phong_chong_ma_tuy_2021.md]`**.\n\n---\n\n### 2. Trách nhiệm hình sự về Tội tàng trữ trái phép chất ma túy\nTheo quy định tại **Điều 249 Bộ luật Hình sự 2015 (sửa đổi, bổ sung 2017)**, hình phạt cụ thể đối với hành vi tàng trữ Ketamine (\"khay\") và MDMA (\"kẹo/thuốc lắc\") được phân loại theo khối lượng tang vật và các tình tiết định khung như sau **`[Source: bo_luat_hinh_su_2015_sua_doi_2017-151-168.md]`**:\n\n#### **Khung 1: Phạt tù từ 03 năm đến 05 năm**\nÁp dụng đối với một trong các trường hợp sau:\n* Tàng trữ độc lập Ketamine hoặc MDMA có khối lượng từ **0,1 gam đến dưới 05 gam** **`[Source: bo_luat_hinh_su_2015_sua_doi_2017-151-168.md]`**.\n* Tàng trữ đồng thời cả hai chất (\"khay\" và \"kẹo\") mà tổng khối lượng quy đổi của cả hai chất tương đương với khối lượng quy định từ **0,1 gam đến dưới 05 gam** **`[Source: bo_luat_hinh_su_2015_sua_doi_2017-151-168.md]`**.\n* Khối lượng dưới 0,1 gam nhưng người thực hiện hành vi đã bị xử phạt vi phạm hành chính về hành vi này, hoặc đã bị kết án về tội này hoặc một trong các tội tàng trữ, vận chuyển, mua bán, sản xuất trái phép chất ma túy khác chưa được xóa án tích mà còn vi phạm **`[Source: bo_luat_hinh_su_2015_sua_doi_2017-151-168.md]`**.\n\n#### **Khung 2: Phạt tù từ 05 năm đến 10 năm**\nÁp dụng đối với một trong các trường hợp sau:\n* Tàng trữ Ketamine hoặc MDMA có khối lượng từ **05 gam đến dưới 30 gam** (hoặc tổng khối lượng hỗn hợp quy đổi của cả hai tương đương mức này) **`[Source: bo_luat_hinh_su_2015_sua_doi_2017-151-168.md]`**.\n* Phạm tội thuộc một trong các tình tiết tăng nặng sau: \n  * Có tổ chức **`[Source: bo_luat_hinh_su_2015_sua_doi_2017-151-168.md]`**;\n  * Phạm tội 02 lần trở lên **`[Source: bo_luat_hinh_su_2015_sua_doi_2017-151-168.md]`**;\n  * Tái phạm nguy hiểm **`[Source: bo_luat_hinh_su_2015_sua_doi_2017-151-168.md]`**;\n  * Lợi dụng chức vụ, quyền hạn hoặc danh nghĩa cơ quan, tổ chức **`",
+  "generation_mode": "citation",
+  "sources_used": 5,
+  "trace": [
+    {
+      "agent": "Supervisor",
+      "action": "routing",
+      "input_summary": "Hình phạt cho hành vi tàng trữ khay và kẹo là gì?",
+      "output_summary": "Bắt đầu pipeline multi-agent",
+      "timestamp": "2026-06-09T22:02:11.611758",
+      "duration_ms": 0.0
+    },
+    {
+      "agent": "SlangWorker",
+      "action": "slang_lookup",
+      "input_summary": "Kiểm tra từ lóng trong câu truy vấn sau:\nQuery: Hình phạt cho hành vi tàng trữ khay và kẹo là gì?",
+      "output_summary": "Phát hiện từ lóng ma túy:\n - Từ lóng 'khay' nghĩa là: Ketamine (chất ma túy nhóm hướng thần)\n - Từ lóng 'kẹo' nghĩa là: Thuốc lắc / MDMA (chất ma túy cực độc tổng hợp)",
+      "timestamp": "2026-06-09T22:02:19.715826",
+      "duration_ms": 8103.5
+    },
+    {
+      "agent": "Supervisor",
+      "action": "retrieve",
+      "input_summary": "Hình phạt cho hành vi tàng trữ khay và kẹo là gì? (Phát hiện từ lóng ma túy:\n - Từ lóng 'khay' nghĩa...",
+      "output_summary": "Retrieved 5 chunks in 17825ms",
+      "timestamp": "2026-06-09T22:02:37.541289",
+      "duration_ms": 17825.3
+    },
+    {
+      "agent": "ReorderWorker",
+      "action": "reorder",
+      "input_summary": "Reorder và format chunks sau:\n[{\"content\": \"b) Vận chuyển, bảo quản, tồn trữ, mua bán, phân phối, sử...",
+      "output_summary": "Kết quả sắp xếp và định dạng lại các chunks theo cấu trúc tối ưu (giảm thiểu lost-in-the-middle):\n\n```markdown\n[Document 1 | Source: luat_phong_chong_ma_tuy_2021.md | Type: legal]\nb) Vận chuyển, bảo q...",
+      "timestamp": "2026-06-09T22:03:08.645567",
+      "duration_ms": 31103.4
+    },
+    {
+      "agent": "CitationWorker",
+      "action": "citation_generation",
+      "input_summary": "Trả lời câu hỏi sau bằng tiếng Việt có citation:\nQuery: Hình phạt cho hành vi tàng trữ khay và kẹo l...",
+      "output_summary": "Dựa trên các quy định pháp luật hiện hành tại Việt Nam (Bộ luật Hình sự và Luật Phòng, chống ma túy), hành vi **tàng trữ trái phép \"khay\" (Ketamine - chất hướng thần) và \"kẹo\" (MDMA/Thuốc lắc - chất m...",
+      "timestamp": "2026-06-09T22:05:24.503645",
+      "duration_ms": 135857.4
+    },
+    {
+      "agent": "Supervisor",
+      "action": "finalize",
+      "input_summary": "Collected all worker outputs",
+      "output_summary": "Done. mode=citation, sources=5",
+      "timestamp": "2026-06-09T22:05:24.503909",
+      "duration_ms": 192892.1
+    }
+  ]
+}
